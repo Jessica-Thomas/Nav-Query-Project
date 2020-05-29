@@ -77,12 +77,6 @@ text-indent: 5%;
 }
 
 
-.col {
-display: flex;
-}
-
-
-
 /* Media Queries  */
 
 
@@ -112,7 +106,7 @@ display: flex;
 
   .col {
     display: flex 50%;
-    flex-direction: row;
+    flex-direction: column;
     /* flex-direction: column; */
     flex-wrap: wrap;
     flex-basis: 0;
